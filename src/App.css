@@ -79,7 +79,7 @@
 .details{
   flex: 2;
   padding: 15px;
-  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .project-name{
