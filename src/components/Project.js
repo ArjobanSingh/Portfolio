@@ -5,9 +5,7 @@ export default function Project(props){
     return (
       <div className="project-overview">
         <p className="details">{props.description}
-
-        {props.link ?
-        <a href={props.link} target="_blank"> Visit</a>: <a/>}
+        <a href={props.link} target="_blank"> Visit</a>
         <br />
         Github Code link -
         <a href={props.github} target="_blank">Here</a>
