@@ -12,7 +12,7 @@ export default function About(props){
             <h2>About Me</h2>
             <ul>
               <li>I am 21(soon to be 22) years old self-taught programmer.</li>
-              <li>Started My Programmin journey last year, from CS50X course-
+              <li>Started My Programming journey last year, from CS50X course-
                 <a href="https://cs50.harvard.edu/certificates/9c68aafd-d3a4-4d02-be0d-416a9a5e2a8f" target="_blank">
                  Check Certificate
                 </a>
