@@ -41,7 +41,7 @@ export default function More(props){
               <h4>More Projects on the way!</h4>
           </div>
           <div className="note">This is simple portfolio(for now). Will update this soon with new Projects soon
-            <a href="#" target="_blank">Github link for this project </a>
+            <a href="https://github.com/ArjobanSingh/Portfolio" target="_blank">Github link for this project </a>
           </div>
       </div>
     )
