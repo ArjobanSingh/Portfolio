@@ -9,7 +9,8 @@ export default function Project(props){
         {props.link ?
         <a href={props.link} target="_blank"> Visit</a>: <a/>}
         <br />
-        <a href={props.github} target="_blank">Github Link</a>
+        Github Code link -
+        <a href={props.github} target="_blank">Here</a>
         </p>
         <div className="my-img-div">
           <a href={props.link} target="_blank">
