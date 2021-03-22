@@ -59,7 +59,7 @@ export default function About(props) {
         <h2>Certifications</h2>
         <ul className="certifications">
           {Object.keys(Titles).map((key) => (
-            <Certificate title={key} url={Titles[key]} />
+            <Certificate key={key} title={key} url={Titles[key]} />
           ))}
         </ul>
       </div>
