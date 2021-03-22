@@ -1,11 +1,16 @@
-
-.App{
+.App {
   display: flex;
   background: linear-gradient(70deg, coral, #ff5079, #ffd750);
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.container{
+.App main {
+  width: min(90rem, 100%);
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,32 +20,31 @@
   flex-wrap: wrap;
 }
 
-.name{
+.name {
   font-size: 8rem;
-  background: -webkit-linear-gradient( #09FBD3, #560A86);
+  background: -webkit-linear-gradient(#09fbd3, #560a86);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: monospace;
 }
 
-.skills{
-  color:#35212A;
+.skills {
+  color: #35212a;
   font-size: 1.5rem;
 }
 
-.about{
+.about {
   display: flex;
   height: auto;
 }
 
-.my-img-div{
-  flex : 1;
-  width : 50%;
-
+.my-img-div {
+  flex: 1;
+  width: 50%;
 }
 
-.my-img{
-  height:90%;
+.my-img {
+  height: 90%;
   width: 90%;
   background-size: cover;
   display: block;
@@ -48,102 +52,120 @@
   padding-top: 20px;
 }
 
-.my-bio{
+.my-bio {
   flex: 1;
   padding-left: 15px;
 }
 
-.projects{
+.projects {
   display: flex;
   flex-direction: column;
 }
 
-.project-heading, h4, .note{
+.project-heading,
+h4,
+.note {
   width: 100%;
   text-align: center;
 }
 
-.note{
+.note {
   margin-bottom: 2rem;
 }
 
-.project-details{
+.project-details {
   display: flex;
   flex-direction: column;
+  font-size: 1.2rem;
 }
 
-.project-overview{
+.project-overview {
   display: flex;
   margin-bottom: 40px;
 }
-.details{
+.details {
   flex: 2;
   padding: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.project-name{
+.project-name {
   margin-left: 15px;
   margin-bottom: -1rem;
 }
 
 @media (max-width: 1020px) {
-  .name{
+  .name {
     font-size: 4rem;
   }
-  .skills{
+  .skills {
     font-size: 1.2rem;
   }
-  .my-img{
-    height:70%;
+  .my-img {
+    height: 70%;
     width: 85%;
     background-size: cover;
   }
 }
 
 @media (max-width: 700px) {
-  .my-img{
-    height:50%;
+  .my-img {
+    height: 50%;
     width: 85%;
     background-size: cover;
   }
 }
 
 @media (max-width: 520px) {
-  .name{
+  .name {
     font-size: 2rem;
   }
-  .skills{
+  .skills {
     font-size: 1rem;
   }
-  .about{
+  .about {
     display: flex;
     flex-direction: column;
     height: auto;
   }
-  .my-img-div{
+  .my-img-div {
     width: 100%;
   }
 
-  .my-img{
-    height:90%;
+  .my-img {
+    height: 90%;
     width: 90%;
     background-size: cover;
     display: block;
     margin: auto;
     padding-top: 20px;
   }
-  .my-bio{
+  .my-bio {
     flex: 1;
   }
 
-  .project-overview{
+  .project-overview {
     flex-direction: column;
   }
 }
 
-ul li{
-  margin: 10px;
-  font-family:monospace;
-  font-size: 1.2rem;
+ul {
+  color: black;
+}
+ul li p {
+  /* margin: 10px; */
+  font-family: monospace;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: indigo;
+}
+.certifications a {
+  color: black;
+}
+
+a:hover {
+  color: #fff;
 }
